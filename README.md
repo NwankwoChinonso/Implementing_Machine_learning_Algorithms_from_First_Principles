@@ -1,11 +1,12 @@
-# Machine Learning Math Foundations 🤖🧮
+# Machine Learning with the Math Foundations 🤖🧮
 
-A collection of Jupyter Notebooks (`.ipynb`) dedicated to understanding the **mathematics behind Machine Learning**. This repository serves as a personal notebook/tutorial to break down complex algorithms into mathematical components and practical Python code.
+A collection of Jupyter Notebooks (`.ipynb`) dedicated to understanding the **Mathematics behind Machine Learning**. This repository serves as a personal notebook/tutorial to break down complex algorithms into mathematical components and practical Python code.
 
 ## 🧠 Core Topics Covered
 *   **Linear Algebra:** Matrix operations, Eigenvalues, SVD.
 *   **Calculus:** Derivatives, Gradients, Chain Rule, Jacobian.
 *   **Probability & Statistics:** Distributions, Bayes Theorem.
+*   **Discrete Mathematics:** Sets, Logic, Graph Theory.
 *   **Optimization:** Gradient Descent, Convex Optimization, Loss Functions.
 
 ## 📓 Notebook Structure
