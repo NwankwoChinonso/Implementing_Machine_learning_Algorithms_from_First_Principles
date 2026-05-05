@@ -37,7 +37,7 @@ cd <project_folder>
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-jupyter notebook notebooks/
+jupyter notebook notebook/
 ```
 
 ---
@@ -45,4 +45,4 @@ jupyter notebook notebooks/
 ## Author
 
 **Chinonso Nwankwo**  
-[GitHub](https://github.com/YOUR_USERNAME)
+[GitHub](https://github.com/NwankwoChinonso)
