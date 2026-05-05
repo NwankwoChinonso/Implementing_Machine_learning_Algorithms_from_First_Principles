@@ -1,6 +1,8 @@
 # California Housing — Linear Regression from Scratch
 
-A end-to-end machine learning project implementing linear regression using only NumPy on the [California Housing dataset](https://scikit-learn.org/stable/datasets/real_world.html#california-housing-dataset). Built to understand the fundamentals of the ML pipeline without relying on high-level abstractions.
+A end-to-end machine learning project implementing linear regression using only NumPy on the [California Housing dataset](https://scikit-learn.org/stable/datasets/real_world.html#california-housing-dataset). 
+
+Built to understand the fundamentals of the ML pipeline without relying on high-level abstractions.
 
 ---
 
@@ -26,7 +28,7 @@ Key issues encountered and resolved during the project:
 
 ```
 california-housing-regression/
-├── data/                  # Dataset files (not tracked by Git — see note below)
+├── data/                  # Dataset files
 ├── notebooks/             # Jupyter notebooks
 │   └── linear_regression.ipynb
 ├── .gitignore
@@ -34,7 +36,7 @@ california-housing-regression/
 └── README.md
 ```
 
-> **Note on data:** The raw dataset is not committed to this repo. It is loaded directly via `sklearn.datasets.fetch_california_housing()` inside the notebook, so no manual download is needed.
+> **Note on data:** The raw dataset is not committed to this repo. It is loaded directly via this url: https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.csv inside the notebook, so no manual download is needed.
 
 ---
 
@@ -78,22 +80,9 @@ See `requirements.txt`. Core libraries used:
 | `pandas` | Data manipulation and EDA |
 | `matplotlib` | Visualizations |
 | `seaborn` | Statistical plots |
-| `scikit-learn` | Dataset loading and validation baseline |
+| `scikit-learn` | For cross- validation baseline |
 | `statsmodels` | VIF / multicollinearity diagnostics |
 | `jupyter` | Notebook environment |
-
----
-
-## Results
-
-The from-scratch implementation achieves results consistent with scikit-learn's `LinearRegression`, confirming correctness of the gradient descent and normal equation implementations.
-
-| Metric | From Scratch | scikit-learn |
-|---|---|---|
-| R² (test) | — | — |
-| RMSE (test) | — | — |
-
-> Fill in your actual numbers above before publishing.
 
 ---
 
@@ -178,5 +167,5 @@ Document assumptions as I go. Several bugs were rooted in me forgetting an assum
 
 ## Author
 
-**Frank**  
+**Chinonso Franklin**  
 [GitHub](https://github.com/NwankwoChinonso)
