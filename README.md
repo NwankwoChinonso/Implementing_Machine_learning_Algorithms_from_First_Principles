@@ -44,5 +44,5 @@ jupyter notebook notebook/
 
 ## Author
 
-**Chinonso Nwankwo**  
-[GitHub](https://github.com/NwankwoChinonso)
+**Franklin Nwankwo**  
+[LinkedIn](https://www.linkedin.com/in/franklin-nwankwo-499736383/)
